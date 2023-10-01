@@ -94,7 +94,6 @@ def api_sorgu_sistemi(url):
 
 
 sonuc = api_sorgu_sistemi(url)
-deneme = sonuc[0]
 
 #print(sonuc[0])
 #print(sonuc[1])
