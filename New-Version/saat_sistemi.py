@@ -8,5 +8,5 @@ def saat_hesaplama():
 saat_hesaplama()
 
 #print(type(saat_hesaplama)) #<class 'function'>
-#print(type(saat_hesaplama())) #<class 'str'>
+#print(type(saat_hesaplama())) #<class 'str'> #fonksiyonun ismini öğrenmiş oluruz
 
