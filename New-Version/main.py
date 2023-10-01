@@ -34,7 +34,7 @@ class Program(App):
 
         # İçerikler/Widget Oluşturma (BOXların içine gelecek içerikler/widgetler.)
         self.hava = Image(source = "{}".format(gorsel_sistemi.hava_durumu_bilgisi)) #hava durumu için görsel tanımlama işlemini yaptık
-        self.veri = Label(markup=True, text=hava_durumu_sorgulama.deneme, font_size=50)
+        self.veri = Label(markup=True, text=hava_durumu_sorgulama.sonuc[0], font_size=50)
         self.time = Label(markup = True)
 
         # Widget Tanımlama (Oluşturulan widgetleri Alt BOXlara tanımlıyoruz.)
@@ -61,4 +61,3 @@ Window.maximize() # Otomatik geniş ekran ile başlatıyor uygulamayı.
 #os.startfile("personal-asistant-v25.py") # Bu kod ile sesli asistan program ile birlikte otomatik çalışıyor. Fakat bu programında aynı dosya yolunda olması gerekmektedir.
 
 Program().run()
-
